@@ -1,142 +1,185 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior:smooth;">
 <!--This is a single-page format with smooth scrolling to selected IDs-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <title>Kat Yeary</title>
     <style>
         /*A custom style to add vertical-alignment utility to jumbotron*/
         .vertical-center {
-            display:flex;
+            display: flex;
             align-items: center;
         }
     </style>
 </head>
+
 <body>
     <!--Full-Screen welcome page with link to contents-->
-    <div class="jumbotron-item min-vh-100 mb-0 vertical-center" style="background-color:#160947;">
+    <div class="jumbotron-item min-vh-100 mb-0 vertical-center" style="background-color:#160947;" id="top">
         <div class="text-center mx-auto" style="width: 600px;">
             <h1 class="display-3" style="font-weight:600; color:#f7f3ed;">Hi, I'm Kat Yeary.</h1>
             <p class="lead font-weight-normal" style="color:#f7f3ed;">I'm a full-stack web-developer.</p>
             <!--Button with link to "About Me" section-->
-            <a class="btn btn-outline-light btn-lg" style="margin-top:5%;" href="#about" role="button"><svg class="bi bi-chevron-double-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
-                <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd"/>
-              </svg></a> 
+            <a class="btn btn-outline-light btn-lg" style="margin-top:5%;" href="#navbarSupportedContent" role="button"><svg
+                    class="bi bi-chevron-double-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M1.646 6.646a.5.5 0 01.708 0L8 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z"
+                        clip-rule="evenodd" />
+                    <path fill-rule="evenodd"
+                        d="M1.646 2.646a.5.5 0 01.708 0L8 8.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z"
+                        clip-rule="evenodd" />
+                </svg></a>
         </div>
-        
+
     </div>
 
     <!--Collapsable sticky navigation bar with links to About Me, Portfolio, and Contact information-->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark"  style="font-family: Lato, sans-serif; font-weight:700;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark"
+        style="font-family: Lato, sans-serif; font-weight:700;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 1.25rem; margin-left:20%">
             <ul class="navbar-nav mr-auto">
-              <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">PORTFOLIO </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">CONTACT</a>
-              </li>
-           
-          </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#top">TOP</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
     <main>
-        <div class="container my-5 mx-auto p-5">
-            <article>
-                
-                <!--About me section: bio, image-->
-                <section>
-                    <div id="about"></div>
-                    <!--Header-->
-                    <header class="text-center"><h2>ABOUT</h2></header>
-                    <!--Row 1-->
-                        <div class="row my-5">
-                            <!--Column 1-->
-                            <div class="col">
-                                    <div class="img-item d-flex flex-wrap ml-3 align-items-center">
-                                        <img src="https://via.placeholder.com/250x250" alt="item image"/>
-                                    </div>
+        <div class="container mx-auto p-5">
 
-                            </div>
-                            <!--Column 2-->
-                            <div class="col-sx-5 col-md-4">
-                            </div>
-                            <!--Column 3-->
-                            <div class="col">
-                                <div>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum vero laudantium, eum nostrum voluptate quis cumque. Dolorem ab porro nam iusto, doloremque repellat expedita obcaecati, nihil odit dolor at provident.</p>
-                                </div>
-                            </div>
-                       
-                    </div>
-                </section>
-
-                <!--Clickable portfolio images-->
-                <section> 
-                    <div id="portfolio"></div>
-                        <header class="text-center my-1 mx-auto px-5"><h2>PORTFOLIO</h2></header> 
-                    
-                        <div class="row my-5">  
-                            <div class="col">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci hic tempore iure nisi natus quos dolorum ad quis quae quibusdam quod deleniti, veritatis esse eius minus quaerat perspiciatis voluptatum? Odio?</p>
-                            </div>   
-                            <div class="col-xs-5 col-md-4">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis iste labore sed excepturi dicta delectus eius id esse aperiam facere? Veritatis nostrum, et eligendi minus velit cum nesciunt dolorum ratione!</p>
-                            </div>  
-                            <div class="col">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam soluta at tempora exercitationem. In, voluptatem corporis quas placeat iste sit perspiciatis? Qui beatae voluptates veniam eligendi eaque perspiciatis nobis accusantium.</p>  
-                            </div>  
+            <!--About me section: bio, image-->
+            <section>
+                <div id="about"></div>
+                <!--Header-->
+                <header class="text-center">
+                    <h2>ABOUT</h2>
+                </header>
+                <!--Row 1-->
+                <div class="row my-5">
+                    <!--Column 1-->
+                    <div class="col">
+                        <div class="img-item d-flex flex-wrap ml-3 mb-5 align-items-center">
+                            <img src="https://via.placeholder.com/250x250" alt="item image" />
                         </div>
-                
-                </section>
 
-                <!--Contact information-->
-                <section><div id="contact"></div> 
-                        <header class="text-center my-1 mx-auto px-5"><h2>CONTACT</h2></header>
-                        
-                        <!--Social-media Links-->
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <a href="https://twitter.com/katyeary?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                </div>
-                                
-                                <!--Email submission form-->
-                                <div class="col-7">
-                                    <form>
-                                        <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Your Email" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                        </div>
-                                        <div class="form-group">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="10"></textarea>
-                                        <button type="submit" class="btn btn-primary mt-5">Submit</button>
-                                    </form>
-                                </div>
-                                
-                            </div>
+                    </div>
+                    <!--Column 2-->
+                    <div class="col-sx-5 col-md-4">
+                    </div>
+                    <!--Column 3-->
+                    <div class="col">
+                        <!--Internal row 1-->
+                        <div class="row p-5">
+                        </div>
+                        <!--Internal row 2-->
+                        <div class="row p-5">
+                        </div>
+                        <!--Internal row 3-->
+                        <div class="row float-right">
+                            <p><a class="btn btn-outline-dark btn-md" style="margin-top:5%;" href="https://www.katyeary.com" role="button">...um, I came here looking for<br>Kat Yeary, the <em>comedian.</em></a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Clickable portfolio images-->
+            <section>
+                <div id="portfolio"></div>
+                <header class="text-center my-1 mx-auto px-5">
+                    <h2>PORTFOLIO</h2>
+                </header>
+
+                <div class="row my-5">
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci hic tempore iure nisi natus
+                            quos dolorum ad quis quae quibusdam quod deleniti, veritatis esse eius minus quaerat
+                            perspiciatis voluptatum? Odio?</p>
+                    </div>
+                    <div class="col-xs-5 col-md-4">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis iste labore sed excepturi
+                            dicta delectus eius id esse aperiam facere? Veritatis nostrum, et eligendi minus velit cum
+                            nesciunt dolorum ratione!</p>
+                    </div>
+                    <div class="col">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam soluta at tempora
+                            exercitationem. In, voluptatem corporis quas placeat iste sit perspiciatis? Qui beatae
+                            voluptates veniam eligendi eaque perspiciatis nobis accusantium.</p>
                     </div>
                 </div>
-            </article>
-        </div> 
+
+            </section>
+
+            <!--Contact information-->
+            <section>
+                <div id="contact"></div>
+                <header class="text-center my-1 mx-auto px-5">
+                    <h2>CONTACT</h2>
+                </header>
+               
+                <div class="row mt-5">
+                     <!--Social-media Links-->
+                    <div class="col">
+                        <a href="https://twitter.com/katyeary?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                            data-size="large" data-show-screen-name="false" data-show-count="false"></a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <!--Email submission form-->
+                    <div class="col-9">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email"
+                                    id="exampleInputEmail1" aria-describedby="Youremail">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                    placeholder="Your Message" rows="10"></textarea>
+                                <button type="submit" class="btn btn-dark mt-5">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
         <!--Footer-->
         <div class="container-fluid">
-            <div class="row py-5 navbar-dark bg-dark" style="font-family: Lato, sans-serif; font-weight:700; color:gray;">
-                <footer class="text-center my-1 mx-auto px-5r"> <h2>some text</h2>
-            </footer>
+            <div class="row py-5 navbar-dark bg-dark"
+                style="font-family: Lato, sans-serif; font-weight:700; color:gray;">
+                <footer class="text-center my-1 mx-auto px-5r">
+                    <h2>some text</h2>
+                </footer>
+            </div>
+
         </div>
-            
-        </div>
-   
+
     </main>
     <script src="https://kit.fontawesome.com/9d8dc867e2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
