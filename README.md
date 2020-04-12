@@ -1,31 +1,45 @@
-Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
-A portfolio/bio page created with bootstrap
-Guidelines
-Fulfilled the following guidelines:
-	-a nav bar
-	-a responsive layout
-	-responsive images
-	-no use of media queries
-Minimum Requirements
-Met the following minimum requirements:
--	Functional, deployed application
--	GitHub repository with README describing the project
--	Consistent navbar
--	Navbar with links to Home/About, Portfoli, & Contact. (Because I used a scrolling format, there is also a link to “top of page”
--	All links work
--	Semantic HTML
--	HTML validated using https://validator.w3.org/#textarea
--	Contains my personal information
--	Utilizes Bootstrap components and grid system.
-
-Please note: separate “portfolio” and “contact” files were not included because I used a scrolling format. Links to individual sections are functional.
-Bonus
-I think scrolling sites are more modern, functional, and aesthetically pleasing, so that’s what I used. I added the following components to optimize this format:
-	-a “sticky” navbar that scrolls with the page
-	-a “smooth” scroll utility 
-	-portfolio section is displayed using a carousel 
-	-a jumbotron home screen/ top-of browser 
-Built With
-•	Bootstrap
-Acknowledgments
-•	I looked at a ton of developer portfolios to find which bonus elements I wanted to incorporate into the assignment, so thanks to all of them.
+<div style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;border:none;border-bottom:solid #EAECEF 1.0pt;padding:0in 0in 4.0pt 0in;background:white;'>
+    <p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><strong><span style='font-size:32px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</span></strong></p>
+</div>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>A portfolio/bio page created with bootstrap</span></p>
+<div style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;border:none;border-bottom:solid #EAECEF 1.0pt;padding:0in 0in 4.0pt 0in;background:white;'>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><strong><span style='font-size:24px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Guidelines</span></strong></p>
+</div>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Fulfilled the following guidelines:</span></p>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-a nav bar</span></p>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-a responsive layout</span></p>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-responsive images</span></p>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-no use of media queries</span></p>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><strong><span style='font-size:20px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Minimum Requirements</span></strong></p>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Met the following minimum requirements:</span></p>
+<ul style="list-style-type: undefined;">
+    <li><span style='font-family:"Segoe UI",sans-serif;'>Functional, deployed application</span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>GitHub repository with README describing the project</span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>Consistent navbar</span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>Navbar with links to Home/About, Portfoli, &amp; Contact. (Because I used a scrolling format, there is also a link to &ldquo;top of page&rdquo;</span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>All links work</span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>Semantic HTML</span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>HTML validated using <a href="https://validator.w3.org/#textarea">https://validator.w3.org/#textarea</a></span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>Contains my personal information</span></li>
+    <li><span style='font-family:"Segoe UI",sans-serif;'>Utilizes Bootstrap components and grid system.</span></li>
+</ul>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:.5in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp;</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:.5in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><strong><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Please note:</span></strong><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp;separate &ldquo;portfolio&rdquo; and &ldquo;contact&rdquo; files were not included because I used a scrolling format. Links to individual sections are functional.</span></p>
+<p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;'><strong><span style='font-size:20px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Bonus</span></strong></p>
+<div style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;border:none;border-bottom:solid #EAECEF 1.0pt;padding:0in 0in 4.0pt 0in;background:white;'>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>I think scrolling sites are more modern, functional, and aesthetically pleasing, so that&rsquo;s what I used. I added the following components to optimize this format:</span></p>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-a &ldquo;sticky&rdquo; navbar that scrolls with the page</span></p>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-a &ldquo;smooth&rdquo; scroll utility&nbsp;</span></p>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-portfolio section is displayed using a carousel&nbsp;</span></p>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;color:#24292E;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;-a jumbotron home screen/ top-of browser&nbsp;</span></p>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><strong><span style='font-size:24px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Built With</span></strong></p>
+</div>
+<ul style="margin-bottom:0in;margin-top:0in;" type="disc">
+    <li style='margin-top:3.0pt;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;color:#24292E;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;'>Bootstrap</span></li>
+</ul>
+<div style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;border:none;border-bottom:solid #EAECEF 1.0pt;padding:0in 0in 4.0pt 0in;background:white;'>
+    <p style='margin-top:.25in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;background:white;border:none;padding:0in;'><strong><span style='font-size:24px;font-family:"Segoe UI",sans-serif;color:#24292E;'>Acknowledgments</span></strong></p>
+</div>
+<ul style="margin-bottom:0in;margin-top:0in;" type="disc">
+    <li style='margin-top:3.0pt;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;color:#24292E;background:white;'><span style='font-size:16px;font-family:"Segoe UI",sans-serif;'>I looked at a ton of developer portfolios to find which bonus elements I wanted to incorporate into the assignment, so thanks to all of them.</span></li>
+</ul>
